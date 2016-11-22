@@ -1,1 +1,1 @@
-"# currency-rates- upload index.html to server and run it, top ten currencies rates will be visible and updated every 5 seconds" 
+"# currency-rates- upload index.html to server and run it, top ten currencies rates will be visible and updated every 5 seconds. I have found no API to get top 10 traded currency in the API documentation, so I have used the historical top 10 traded currencies." 
