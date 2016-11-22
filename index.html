@@ -26,7 +26,7 @@
         myapp.controller("CurrencyCtrl", function ($scope, $http, $q) {
             $scope.rates = '';
 			$scope.get_rates = function(){
-				var url = 'http://apilayer.net/api/live?access_key=3525ef812fca6f9667ff45f1cb374543&currencies=AUD,CHF,EUR,GBP,PLN,INR,CAD,ZAR,NZD,JPY';
+				var url = 'http://apilayer.net/api/live?access_key=3525ef812fca6f9667ff45f1cb374543&currencies=EUR,JPY,GBP,AUD,CHF,CAD,MXN,CNY,NZD,SEK';
 				return $q(function(resolve, reject) {
 					$http.get(url).then(function(response) {
 						console.log(response.data.quotes);
